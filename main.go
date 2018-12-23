@@ -76,8 +76,7 @@ func main() {
 // MakeSheets は座席リストにIDを割り振って返す。
 // sheetsのtrueの箇所が着席可能な箇所を指す。
 // idsを着席可能な箇所に順に割り振る。
-func MakeSheets(sheets [][]bool, ids []string) [][]string {
-	arr := [][]string{}
+func MakeSheets(sheets [][]bool, ids []string) (newSheets [][]string) {
 	var i int
 	for _, sheet := range sheets {
 		var lineSheet []string
@@ -89,7 +88,7 @@ func MakeSheets(sheets [][]bool, ids []string) [][]string {
 			}
 			lineSheet = append(lineSheet, "")
 		}
-		arr = append(arr, lineSheet)
+		newSheets = append(newSheets, lineSheet)
 	}
-	return arr
+	return
 }
