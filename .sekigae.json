@@ -1,0 +1,32 @@
+{
+  "sheets":[
+    [false, false, true, true, false, false],
+    [true, true, true, true, true, true],
+    [true, true, true, true, true, true],
+    [true, true, true, true, true, true]
+  ],
+  "ids":[
+    "tanaka",
+    "yamada",
+    "suzuki",
+    "inoue",
+    "hogeyama",
+    "ueda",
+    "ikeda",
+    "umeda",
+    "ponkichi",
+    "kita",
+    "nishi",
+    "higashi",
+    "minami",
+    "shibuya",
+    "tokyo",
+    "akihabara",
+    "osaka",
+    "kyoto",
+    "ibaraki",
+    "kumamoto",
+    "aomori",
+    "hokaido"
+  ]
+}
